@@ -1,0 +1,124 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+    background: linear-gradient(0deg, #5be779, #000000);
+    transition: all 10s ease;
+}
+/* body:has(#right-sec:hover){
+    background: linear-gradient(0deg,black, #5be779);
+} */
+
+.flex-hor {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-ver {
+    display: flex;
+    flex-direction: column;
+}
+
+.demo-white-bg {
+    background-color: rgba(225, 225, 225,0.2);
+}
+
+#nav-bar{
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 45px;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+#nav-bar > div{
+    color: #5be779;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#nav-bar >div:hover{
+    color: white;
+    font-size: 25px;
+    
+}
+#page-one{
+    align-items: center;
+    gap: 10px;
+}
+#page-one-title{
+    color: white;
+    font-size: 50px;
+    font-family: "Bebas Neue", "serif";
+}
+#page-one-hor {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page-one-title {
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    color: white;
+}
+
+.page-one-input-set {
+    gap: 10px;
+}
+
+.page-one-btn {
+  font-size: 15px;
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #fafafa;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 35px 0;
+}
+
+.page-one-btn:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+
+
+.sec-one-inputs {
+    width: 300px;
+    height: 10px;
+    /* max-width: 190px; */
+    padding: 0.875rem;
+    font-size: 1rem;
+    border: 1.5px solid #000;
+    border-radius: 0.5rem;
+    box-shadow: 2.5px 3px 0 #000;
+    outline: none;
+    transition: ease 0.25s;
+}
+
+.sec-one-inputs:focus {
+    box-shadow: 7.5px 7px 0 black;
+}
+
+#page-one-divider {
+    width: 1px;
+    height: 50vh;
+    background-color: rgba(225, 225, 225, 0.2);
+}
+
+.page-one-input-text {
+    color: white;
+    font-size: 20px;
+}
+
+.page-one-sec {
+    width: 40vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-around;
+}
