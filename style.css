@@ -59,13 +59,17 @@ body {
 }
 
 .page-one-title {
-    font-family: "Noto Serif", serif;
+    font-family: "Parisienne", cursive;
     font-size: 40px;
     color: white;
 }
 
 .page-one-input-set {
     gap: 10px;
+}
+
+.page-one-input-text{
+    font-family: "Cormorant Garamond", sans-serif;
 }
 
 .page-one-btn {
