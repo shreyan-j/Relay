@@ -17,7 +17,9 @@
 <body class="body">
     <div id="nav-bar" class="nav-bar flex-hor">
         <div id="nav-bar-home" class="nav-bar-text">Home </div>
-        <div id="nav-bar-about" class="nav-bar-text">About me</div>
+        <a href="/about-me">
+            <div id="nav-bar-about" class="nav-bar-text">About me</div>
+        </a>
         <div id="nav-bar-contact-us" class="nav-bar-text">Contact me</div>
         <div id="nav-bar-account" class="nav-bar-text">Account</div>
         <div id="nav-bar-donate" class="nav-bar-text">Donate</div>
@@ -40,16 +42,33 @@
                     <div class="page-one-input-text">Enter your class:</div>
                     <input id="left-sec-class" class="sec-one-inputs flex-ver" type="text" title="enter you name">
                 </div>
-                <div class="page-one-btn">Start Chat</div>
+                <div id="page-one-left-btn" class="page-one-btn">Start Chat</div>
             </div>
             <div id="page-one-divider"></div>
             <div id="right-sec" class="page-one-sec flex-ver">
-                <input id="right-sec-name" class="sec-one-inputs" type="text" title="enter you name">
-
+                <div id="right-sec-title" class="page-one-titles
+            "> Start giving Guidance</div>
+                <div class="page-one-input-set flex-ver">
+                    <div class="page-one-input-text">Enter your Name:</div>
+                    <input id="right-sec-name" class="sec-one-inputs flex-ver" type="text" title="enter you name">
+                </div>
+                <div class="page-one-input-set flex-ver">
+                    <div class="page-one-input-text">Enter your college email id:</div>
+                    <input id="right-sec-email" class="sec-one-inputs flex-ver" type="text" title="enter you name">
+                </div>
+                <div class="page-one-input-set flex-ver">
+                    <div class="page-one-input-text">Enter your year of graduation:</div>
+                    <input id="right-sec-class" class="sec-one-inputs flex-ver" type="text" title="enter you name">
+                </div>
+                <div id="page-one-right-btn" class="page-one-btn">Start Chat</div>
             </div>
         </div>
+        <div id="page-one-footer"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                width="24px" fill="#e3e3e3">
+                <path
+                    d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z" />
+            </svg></div>
     </div>
-
 </body>
 
 </html>
