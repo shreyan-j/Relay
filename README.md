@@ -1,2 +1,2 @@
 # Relay
-chat app for JEE students
+Chat app for JEE students
